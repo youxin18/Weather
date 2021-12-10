@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity3"
+    android:background="@color/white">
+    <RelativeLayout
+        android:id="@+id/tab_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/warning"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/back"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="实时资讯"
+            android:textSize="33sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_below="@+id/tab_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="专科生考MBA，会被歧视？"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"/>
+            <ImageView
+                android:id="@+id/picture"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/dog"
+                android:layout_below="@+id/title"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_below="@+id/picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="一、院校限制专科报考MBA的报考条件中，对于专科的报考条件是毕业5年或5年以上，但是，有些院校会限制专科同学的报考。比如清华大学经济管理学院，专科的同学是不能报考的。
+
+相关信息可查看：注意！这些院校的MBA已经明确拒绝大专考生！。并且，有的院校对专科学生有另外的要求，比如中央财经大学，不限制专科学历同学的报考，但在联考之后的复试阶段，专科考生需要提交一篇2000字以上的，与工商管理领域相关的论文。从院校报考条件来说，似乎专科同学在MBA院校的选择上受到了“歧视”。
+
+二、学历是第一印象的基础虽说不能学历定能力，专科毕业的学生，也有很多能力优秀，工作出众的人才，但是，各院校的老师，面对素未谋面的考生们，对他们的第一印象，往往来自于考生的过往资料。人力资料有限，在众多申请资料中，考官们可能会把学历背景作为人才选拔的标准之一。这样看来，似乎专科同学在MBA报考过程中受到了“歧视”。
+
+三、过来人告诉你担心这担心那，那不如来听听过来人的看法吧。网友L说：一般来说对学历是没有歧视的，歧视都是自己给的，高校不会因为你的学历水平刷掉你，录取从高分到低分刷，面试也有评分的硬性指标，只要分高没人歧视你。网友summer说：我就是专科考上的，即将毕业。别花心思想能不能考上，先学习吧兄弟！网友小狮子说：我专科毕业，没有自考本科，今年考上上财啦！劝各位同道中人笔试成绩最好上两百，概率大。网友吴1234说：一线清北复交上不了，其他的只要努力没有不行的！网友小和池说：我是专科毕业的~MBA在厦大读的，同学里有很多来自985/211，普通本科 专科的都有~ 专科毕业是话个人履历比较重要。网友伊莫顿说：一线好学校，提面不给专科生B线C线。所以得硬考，跟刚毕业的学生一起较量，略吃亏，但是能考上。
+
+网友伯爵茶与黄花说：
+
+有个别名校已经郑重声明不招收专科毕业的学生了，但是大部分的院校还是招收的，专科的学历肯定跟本科比是不占优势的，但是对于MBA的报考也不仅仅是去看以前的一个成绩，现在的工作经验工作单位以及你对于未来的打算也是很重要的，如果说你的此刻是很优秀的话 专科的学历也就影响不大了。
+
+世界上本不存在绝对的公平，公平都是自己争取来的。其实，不应该说是歧视，更准确的说法应该是择优。如果想要成为被老师选中的人，就要增强自己的竞争力了。过往的经历无法改变，那把精力放在现在，做好自己。MBA注重学生的实践能力和工作经验，院校之所以会允许专科学生报考，是相信专科学生的价值。所以，首先自己别把自己放低，其次，用足够的底气，优异的成绩征服全场。学历是锦上添花，并不是硬性要求，如果你的过往履历丰富，工作表现突出，言行举止大方，即使学历上不占优势，也会让考官眼前一亮。靠实力，征服所有不服。"
+
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

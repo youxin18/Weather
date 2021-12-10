@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity3"
+    android:background="@color/white">
+    <RelativeLayout
+        android:id="@+id/tab_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/warning"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/back"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="实时资讯"
+            android:textSize="33sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_below="@+id/tab_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="申请MBA，你的理由是？"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"/>
+            <ImageView
+                android:id="@+id/picture"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/dog"
+                android:layout_below="@+id/title"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_below="@+id/picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:text="读MBA的动机
+
+读MBA的动机有哪些呢？我们发现了一篇很有意思的文章，GMAC在2016年曾经联合IPSOS益普索发布一篇报告，根据“why MBA”把申请动机划为了7类。
+
+这项研究的对象涉及了5900余名申请人，并且成功申请到了商科研究生项目（MBA或其他管理类硕士），包括了中国和美国在内的15个国家，并且使用了12种语言（避开使用英语产生的偏见），并对每一类人申请的态度、院校、在职业生涯的什么阶段申请、选校时最看重什么等等许多相关问题做了分析。
+
+划分出来的七个类型分别是：• Status Seekers（追求地位者）
+
+此类型渴望的是拥有某种地位；
+
+• Global Strivers（全球打怪选手）
+
+此类型指想要增加国际视野和得到去别的国家工作的机会；
+
+• Balanced Careerists（追求平衡的事业家）
+
+此类型想要的是职业方面的稳定和发展；
+
+• Career Revitalizers（职业复兴者）
+
+此类型与Balanced Careerists相反，他们往往想寻求职业方面的再出发或者新的亮相。
+
+• Socio-economic Climbers（社会经济爬梯者）
+
+此类型是典型的希望通过赚钱或者获得财务上的成功，从而改善他们的社会经济地位、他们的后代更加优渥的生活和更加有保障的未来。
+
+• Skill Upgraders（技能升级狂人）
+
+此类型可能有点像生活大爆炸里的极客们，他们对提升技能、管理能力和领导力有着谜之追求。
+
+• Impactful Innovators（职业复兴者）
+
+此类型听上去有点儿飘在天上了，但是他们希望通过改善某些具体的技能和能力，从而能够给社会带来更大的影响。
+
+在后续的研究中，GMAC还比较了中国、印度和美国申请人在申请动机上的不同。其中，中国申请人的普遍且远远高出国际平均水平（包括美国申请人和印度申请人）的动机是Career Revitalizer职业复兴者，对于这类人来说，他们在择校方面最看重的是教学质量"
+
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

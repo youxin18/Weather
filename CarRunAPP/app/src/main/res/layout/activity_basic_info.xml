@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.BasicInfoActivity"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/text_register_basic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置个人信息"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/nicheng"
+        android:layout_below="@+id/text_register_basic"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:hint="请修改您的昵称"
+        android:paddingLeft="20dp"
+
+        style="@style/LoginEdit"
+        android:textColor="#000000" />
+    <EditText
+        android:id="@+id/nianling"
+        android:layout_below="@+id/nicheng"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:hint="请输入您的年龄"
+        android:paddingLeft="20dp"
+
+        style="@style/LoginEdit"
+        android:textColor="#000000" />
+    <EditText
+        android:id="@+id/xuexiao"
+        android:layout_below="@+id/nianling"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:hint="请输入您的学校"
+        android:paddingLeft="20dp"
+
+        style="@style/LoginEdit"
+        android:textColor="#000000" />
+    <EditText
+        android:id="@+id/zhiye"
+        android:layout_below="@+id/xuexiao"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:hint="请说明您的职业（学生在读/在职）"
+        android:paddingLeft="20dp"
+
+        style="@style/LoginEdit"
+        android:textColor="#000000" />
+   <TextView
+       android:id="@+id/xingbie"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="选择您的性别:"
+       android:textSize="18sp"
+       android:textColor="#000000"
+       android:textStyle="bold"
+       android:layout_marginLeft="100dp"
+       android:layout_marginTop="30dp"
+       android:layout_below="@+id/zhiye"/>
+    <ImageView
+        android:id="@+id/xingbie_image"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/zhiye"
+        android:layout_toRightOf="@+id/xingbie"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/man"/>
+    <ImageView
+        android:id="@+id/xingbie_image_woman"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/zhiye"
+        android:layout_toRightOf="@+id/xingbie_image"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/woman"/>
+    <Button
+        android:id="@+id/baocun"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="#0628E3"
+        android:textSize="23sp"
+        android:text="保存"
+        android:layout_below="@+id/xingbie"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+       />
+
+
+
+</RelativeLayout>

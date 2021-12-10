@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity1"
+    android:background="#CCCACA">
+    <RelativeLayout
+        android:id="@+id/tab_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/warning"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/back"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="实时资讯"
+            android:textSize="33sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_below="@+id/tab_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="考研后身价倍涨的5大专业，过程很难熬，但考上前途不用愁"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"/>
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/dog"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_below="@+id/picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="为什么考研人数越来越多?
+
+主要原因就是就业。很多考生选择考研的主要目的就是为了找到更好的工作，还有很多往届毕业生选择考研，也是为了提升自己在职场中的竞争力。众所周知，研究生相对来说，比本科生容易就业，而且研究生的工资也要比普通本科生高。
+
+虽然并不是每一个专业都适合考研，但有些专业却非常需要通过考研来提升专业度，也就是说，考研之后学历的性价比会更高！
+1、统计学专业
+
+统计学是应用一级学科应用经济学下面的二级学科，与国民经济学、产业经济学、区域经济学、数量经济学、国防经济学、金融学等专业并列。在研究生报考的受欢迎度方面看，统计学并不受欢迎，很多学校该专业的研究生都是调剂过去的。在就业方面，一般都能找到工作。
+
+普遍来看，统计专业就业面不宽，但是找工作在很多领域都可以用到，比如可以在会计行业或者在资料管理方面，比如在公司里负责有关数据的处理和分析。整体而言，如果英语比较好，统计分析能力强，并且具备一定的社会实践经验，能够进入跨国公司与大牌咨询公司，薪酬会非常高。如果没有这方面的优势，薪酬会比较一般。
+
+2、金融学专业
+
+金融学是一个听着很有“钱”途的专业，很多小可爱在高考填报志愿的时候都是被其就业前景所吸引。不论是高考还是考研，金融学一直以来都是一个热门专业，这也使金融学考研成为一项高风险的“投资”，但高风险往往伴随着高收益。
+
+金融学专业一般会进入银行、咨询行业、证券、保险、投资、媒体以及其他政府部门工作。
+
+很多地方本科生是去不了的，毕竟本科阶段我们具备的是学习知识的能力，而研究生阶段我们要的是能够运用知识的能力。
+
+举个例子，银行一般分前台、中台、后台三部分，最好的部分也是在后台部分，一般来讲研究生才可以进到后台的部分。"
+
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        />
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

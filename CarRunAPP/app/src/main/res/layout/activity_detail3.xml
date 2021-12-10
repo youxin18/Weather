@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity3"
+    android:background="@color/white">
+    <RelativeLayout
+        android:id="@+id/tab_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/warning"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/back"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="实时资讯"
+            android:textSize="33sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_below="@+id/tab_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="考研前30天，他们这样学"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"/>
+            <ImageView
+                android:id="@+id/picture"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/dog"
+                android:layout_below="@+id/title"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_below="@+id/picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:text="距离考试越近，如何安排好复习时间就显得越发重要。考生要提前做好时间安排，让每天的努力有的放矢。
+
+回忆起自己研考前的30天，对外经济贸易大学金融学院研究生李晋说，每天的学习安排得都很紧凑，分为三个时间段，分别是早上7：00到11：30，下午2：00到5：30，晚上7：00到10：00。考虑到各科考试时间安排，他会在早上学政治、数学，下午学英语、专业课，晚上根据白天复习情况实时调整。
+
+关于各科目的复习安排，拿数学来讲，李晋认为，在当下这个时间点，考生的水平基本定型了，能做的也就是做模拟考试卷和查漏补缺。他在30天做了16套模拟题，节奏大概是前期每天一套，慢慢变成两天一套，再变成三天一套，一直到考前。后期分出一定时间给专业课和政治完成必须的背诵，而再在数学上花太多时间，边际效用也不大了。每次做模拟考卷，他都严阵以待，写上名字、计时、答题、打分、分析，一步不少且一气呵成。当适应并习惯了这样的考试节奏后，在考场摊开答题纸的那一刻，他一下子就来精神了。
+
+研考之前的复习要“张弛有度”。李晋介绍，有厌学感受时，他会花些时间去排解这种负面情绪。打球、散步或睡觉都颇有成效。他建议考生不要过于吝啬时间，磨刀不误砍柴功，调整好状态，可以事半功倍。
+
+在考研初试前的1个月，北京理工大学机电学院研究生张静静的专业课、数学和英语的复习主要是做成套试卷。政治主要是背诵记忆。和李晋比较相似的是，她基本上是按照考试的时间安排设计复习安排，上午做数学，下午做英语或专业课，做完对答案、整理错题，晚上背政治。
+
+北京邮电大学计算机学院研究生罗浩然则有着不同的时间安排。他建议研考生以两天为一个周期进行复习。第一天上午做两套政治模拟题的选择题，并背政治的选择题知识点；下午做一套英语题（作文要写），背英语单词；晚上一半时间用于复习数学知识点，另一半时间背诵大题知识点。第二天上午做一套数学卷，并看视频讲解进行知识点整理，下午做一套专业课卷子，并看视频讲解整理知识点，晚上有一半时间复习专业课知识点，另一半用来背大题知识点，之后循环两天的内容。罗浩然认为四科没有短板才是最后的胜者，通过两天一循环的方法，在考前30天，可以把学习时间平均分给四个科目。"
+
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

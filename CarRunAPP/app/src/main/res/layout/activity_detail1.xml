@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity1"
+    android:background="#CCCACA">
+    <RelativeLayout
+        android:id="@+id/tab_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/warning"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/back"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="实时资讯"
+            android:textSize="33sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_below="@+id/tab_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="江苏省2022年全国硕士研究生招生考试考生健康应试须知"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"/>
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/dog"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_below="@+id/picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="为了保障广大考生和考试工作人员的生命安全和身体健康，提高考生自我防护意识，承担对社会的防疫责任，特制定考生健康应试须知如下：
+
+一、考前准备
+
+1.考前14天起，每日自行测量体温和监测健康状况；尽量保持在江苏省境内，尽量减少不必要的跨市流动，避免去中高风险地区和人流密集的公共场所。
+
+2.异地考生须提前了解并确保自己符合考试所在地防疫政策和要求。
+
+考生须在12月11日前申领“苏康码”，并在参加考试前连续14天通过“苏康码”界面进行健康申报，以便进入考点时接受检查（申领途径：下载江苏政务服务APP，点击进入“苏康码”服务；或在支付宝首页搜索“苏康码”，完成实名认证后方可获取“苏康码”。暂不能确定到达后详细地址的，可暂填报考点单位的地址，待详细地址确定后，自行更正）。
+
+3.考生在考前14天内有中高风险地区旅居史、境外返回、境外人员接触史，苏康码为非绿码的，以及出现发热（体温超过37.3℃）、咳嗽等呼吸道症状不能签署《江苏省2022年全国硕士研究生招生考试健康应试承诺书》者，如确需参加考试的，须提供考前48小时内核酸检测阴性证明，并主动将信息报报考点。
+
+4.赴考时，提前准备好口罩（一次性医用口罩或医用外科口罩），做好个人防护。
+
+5.考试开始前，考生须签订《江苏省2022年全国硕士研究生招生考试健康应试承诺书》，并于第一场考试前上交。考生可从“江苏省教育考试院门户网”（www.jseea.cn）下载打印，按要求签订后在进入考点时出示，第一场考试进入考场后交给监考员。
+
+二、入场检查
+
+1.考生须至少提前45分钟到达考点，凭本人准考证、有效居民身份证件、苏康码、行程码，佩戴口罩进入考点。不佩戴口罩的考生不得进入考点；不得因为佩戴口罩影响身份识别。
+
+2.考生须听从考试工作人员指挥，配合考点完成体温测量等健康检查和登记。体温低于37.3℃方可进入考点。体温异常的考生须听从工作人员安排，经现场医务专业人员复查体温及流行病学史等综合评估指标，确定考生符合健康应试要求后，方可进入考点。如复查后体温依然不正常，可主动放弃考试，或听从工作人员安排进入备用隔离考场考试。
+
+三、应试要求
+
+1.考试过程中，低风险考区考生全程佩戴口罩；中、高风险考区考生和备用隔离考场的考生须全程佩戴N95口罩。
+
+2.考试过程中，如突感不适，应主动联系考点工作人员，听从工作人员安排。前场考试后、下场开考前，如突感不适，也应在下场考试开始前，主动联系考点工作人员，听从工作人员安排。
+
+3.考试结束时，须按监考员的指令，有序错峰离场，保持人员间距，不得拥挤，不得在考点内滞留。
+
+四、其他要求
+
+1.考生应自觉配合考点做好身体健康检测，凡隐瞒或谎报旅居史、接触史、健康状况等疫情防控重点信息，以及在考试疫情防控中拒不配合工作人员进行防疫检测、询问、排查的，将取消考试资格，并按照有关法律法规予以处理。
+
+2.考试疫情防控措施将根据疫情防控形势变化适时调整，请考生关注江苏省教育考试院官方网站或关注江苏省教育考试院官方微信公众号“江苏招生考试”，以及考试所在地区疫情防控要求，及时了解相关政策信息。"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        />
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

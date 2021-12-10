@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MathQuestionActivity1"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/top_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(4)、设函数f(x)=sccx在x=0处的两次泰勒多项式为1+ax+bx^2，则"
+        android:textColor="#000000"
+
+        android:textSize="16sp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="15dp"/>
+    <RelativeLayout
+        android:id="@+id/question_content"
+        android:layout_below="@+id/top_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/option1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_error"
+            android:layout_marginTop="40dp"
+            android:button="@null"
+            android:layout_marginLeft="50dp"/>
+        <CheckBox
+            android:id="@+id/option2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_error"
+            android:layout_marginTop="40dp"
+            android:button="@null"
+            android:layout_below="@+id/option1"
+
+            android:layout_marginLeft="50dp"/>
+        <CheckBox
+            android:id="@+id/option3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_error"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/option2"
+            android:button="@null"
+            android:layout_marginLeft="50dp"/>
+        <CheckBox
+            android:id="@+id/option4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_yes"
+            android:button="@null"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/option3"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:id="@+id/option_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A:a=1,b=-1/2"
+            android:layout_toRightOf="@+id/option1"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="50dp"/>
+        <TextView
+            android:id="@+id/option_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A:a=1,b=q/2"
+            android:layout_toRightOf="@+id/option2"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/option_text1"
+            android:layout_marginLeft="50dp"/>
+        <TextView
+            android:id="@+id/option_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A:a=0,b=-1/2"
+            android:layout_toRightOf="@+id/option2"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginTop="45dp"
+            android:layout_below="@+id/option_text2"
+            android:layout_marginLeft="50dp"/>
+        <TextView
+            android:id="@+id/option_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A:a=0,b=1/2"
+            android:layout_toRightOf="@+id/option3"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginTop="45dp"
+            android:layout_below="@+id/option_text3"
+            android:layout_marginLeft="50dp"/>
+
+
+
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/next3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/next"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/question_content"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

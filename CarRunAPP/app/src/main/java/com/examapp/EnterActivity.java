@@ -1,7 +1,4 @@
-package com.example.cardrunfast;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
+package com.examapp;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,6 +7,8 @@ import android.os.Handler;
 import android.os.Message;
 import android.view.Window;
 import android.view.WindowManager;
+
+import androidx.annotation.NonNull;
 
 public class WeclomeActivity extends Activity {
 
